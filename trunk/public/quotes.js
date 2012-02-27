@@ -36,7 +36,7 @@ $(document).ready(function(){
 		$("div.quote-posted").css({'font':'normal 12px Tahoma,Calibri,Verdana,Geneva,sans-serif'});
 		$("div.quote-content").css({'padding':'8px 0'});
 		if($(".quote-source").length){
-			$(".quote-source").css({'position':'relative','top':'1px'});
+        $(".quote-source").css({'position':'relative','top':'1px','border':'none'});
 		}
 	}
 });
